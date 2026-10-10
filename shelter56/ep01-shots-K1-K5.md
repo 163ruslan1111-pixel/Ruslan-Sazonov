@@ -13,12 +13,12 @@
 
 ## К1 · 5 с · лимонад
 
-**Кадр (Nano Banana)** — приложить: 1 — lemonade, 2 — hozyayushka-1985, 3 — misha-1985
+**Кадр (Nano Banana)** — приложить: @image1 — lemonade, @image2 — hozyayushka-1985, @image3 — misha-1985
 ```
 Create one film still, horizontal 16:9, 35 mm film photograph look, Kodak Portra colours, fine grain, photorealistic.
-Image 1 is the glowing green lemonade bottle on the yellow checkered oilcloth — keep the bottle and its label exactly as in image 1.
-Image 2 is the robot: only its chrome three-finger gripper is in frame, entering from the left, holding a small steel bottle opener hooked under the crimped cap of the bottle, which is now closed.
-Image 3 is the boy: only his small hand and the white short sleeve of his shirt enter from the right, fingers reaching toward the bottle; behind the bottle his face is soft and out of focus, red garrison cap, eyes on the bottle.
+@image1 is the glowing green lemonade bottle on the yellow checkered oilcloth — keep the bottle and its label exactly as in @image1.
+@image2 is the robot: only its chrome three-finger gripper is in frame, entering from the left, holding a small steel bottle opener hooked under the crimped cap of the bottle, which is now closed.
+@image3 is the boy: only his small hand and the white short sleeve of his shirt enter from the right, fingers reaching toward the bottle; behind the bottle his face is soft and out of focus, red garrison cap, eyes on the bottle.
 Close-up at table height, 50 mm lens, morning sun from the window behind, condensation on the glass.
 No other text, no watermark.
 ```
@@ -40,11 +40,11 @@ ENDPOINT: hard end at 5 s as the bottle leaves the frame.
 
 ## К3 · 10 с · Хозяюшка и блин
 
-**Кадр (Nano Banana)** — приложить: 1 — kitchen-1985, 2 — hozyayushka-1985, 3 — misha-1985, 4 — lemonade
+**Кадр (Nano Banana)** — приложить: @image1 — kitchen-1985, @image2 — hozyayushka-1985, @image3 — misha-1985, @image4 — lemonade
 ```
-Create one film still, horizontal 16:9, 35 mm film photograph look, photorealistic. The same kitchen as image 1 — same tiles, refrigerator with the smiling boy magnet, yellow oilcloth table, window with the spire, TV on the bracket, stove, samovar. Camera at 120 cm, 35 mm lens, from the refrigerator side, looking at the stove and the end of the table.
-The robot from image 2, exactly the same design and the same folk-pattern apron, stands at the gas stove holding the cast-iron frying pan with a thin pancake in it.
-The boy from image 3, exactly the same face and clothing, sits at the table end nearest the stove, holding the glowing green bottle from image 4 in both hands, a thin green lemonade moustache on his upper lip, grinning.
+Create one film still, horizontal 16:9, 35 mm film photograph look, photorealistic. The same kitchen as @image1 — same tiles, refrigerator with the smiling boy magnet, yellow oilcloth table, window with the spire, TV on the bracket, stove, samovar. Camera at 120 cm, 35 mm lens, from the refrigerator side, looking at the stove and the end of the table.
+The robot from @image2, exactly the same design and the same folk-pattern apron, stands at the gas stove holding the cast-iron frying pan with a thin pancake in it.
+The boy from @image3, exactly the same face and clothing, sits at the table end nearest the stove, holding the glowing green bottle from @image4 in both hands, a thin green lemonade moustache on his upper lip, grinning.
 Morning sun from the window, warm soft shadows. Nobody looks at the camera. No text, no watermark.
 ```
 
@@ -66,10 +66,10 @@ ENDPOINT: hard end at 10 s as the napkin leaves his face.
 
 ## К4a · 5 с · Пётр
 
-**Кадр (Nano Banana)** — приложить: 1 — kitchen-1985, 2 — petr-1985
+**Кадр (Nano Banana)** — приложить: @image1 — kitchen-1985, @image2 — petr-1985
 ```
-Create one film still, horizontal 16:9, 35 mm film photograph look, photorealistic. The same kitchen as image 1. Medium shot, 50 mm lens, camera at eye level near the stove, looking toward the window: the lace curtains and the city with the spire and the airship behind him, slightly overexposed.
-The man from image 2, exactly the same face, hair and clothing — light grey suit, white shirt, narrow red tie, red satin ribbon bow on the left lapel, steel wristwatch — stands by the window, three-quarter to the camera, finishing knotting his red tie with both hands, glancing down at his wristwatch.
+Create one film still, horizontal 16:9, 35 mm film photograph look, photorealistic. The same kitchen as @image1. Medium shot, 50 mm lens, camera at eye level near the stove, looking toward the window: the lace curtains and the city with the spire and the airship behind him, slightly overexposed.
+The man from @image2, exactly the same face, hair and clothing — light grey suit, white shirt, narrow red tie, red satin ribbon bow on the left lapel, steel wristwatch — stands by the window, three-quarter to the camera, finishing knotting his red tie with both hands, glancing down at his wristwatch.
 Warm morning backlight from the window, soft fill. Nobody looks at the camera. No text, no watermark.
 ```
 
@@ -88,11 +88,11 @@ ENDPOINT: hard end at 5 s as he finishes speaking.
 
 ## К4b · 5 с · Надя и Миша
 
-**Кадр (Nano Banana)** — приложить: 1 — kitchen-1985, 2 — nadya-1985, 3 — misha-1985
+**Кадр (Nano Banana)** — приложить: @image1 — kitchen-1985, @image2 — nadya-1985, @image3 — misha-1985
 ```
-Create one film still, horizontal 16:9, 35 mm film photograph look, photorealistic. The same kitchen as image 1, by the cream refrigerator with the smiling boy magnet. Medium shot, 40 mm lens, eye level of a kneeling adult.
-The woman from image 2, exactly the same face, hair and clothing — navy polka-dot dress with white round collar, red carnation — kneels on one knee in front of the boy, both hands straightening the knot of his red pioneer neckerchief.
-The boy from image 3, exactly the same face and clothing — red garrison cap, white shirt, red neckerchief, navy shorts, white knee socks — stands facing her, chin raised, impatient.
+Create one film still, horizontal 16:9, 35 mm film photograph look, photorealistic. The same kitchen as @image1, by the cream refrigerator with the smiling boy magnet. Medium shot, 40 mm lens, eye level of a kneeling adult.
+The woman from @image2, exactly the same face, hair and clothing — navy polka-dot dress with white round collar, red carnation — kneels on one knee in front of the boy, both hands straightening the knot of his red pioneer neckerchief.
+The boy from @image3, exactly the same face and clothing — red garrison cap, white shirt, red neckerchief, navy shorts, white knee socks — stands facing her, chin raised, impatient.
 Camera about thirty degrees off the axis between them, both faces visible. Morning sun from the window. Nobody looks at the camera. No text, no watermark.
 ```
 
