@@ -129,3 +129,28 @@ ENDPOINT: hard end at 5 s.
 ## К2 · реклама с Атомкой — позже
 
 Нужен отдельный лист талисмана Пионер Атомка (рисованный ретро-мультик). Сделаем следующей партией вместе с парадом.
+
+---
+
+## Обновление · правило мастер-кадра
+
+Все кадры сцены строятся правкой мастер-кадра `frames/K3.png` (общий план кухни), чтобы расстановка, свет и предметы совпадали. Негатив вставляется в основной промпт только как утверждения (в Higgsfield нет отдельного поля).
+
+Статус: К1 — готов (`clips/K1.mp4`). К3 — готов целиком, талон на холодильнике заменён на монтаже (`clips/K3.mp4`).
+
+### К4a · кадр (новый) — @image1 — frames/K3.png, @image2 — petr-1985
+```
+Edit @image1.
+CHANGE: move to a medium shot from the same side of the room, 50 mm lens, camera at standing eye level, framing the window: the man from @image2 stands in front of the window behind the right end of the table, three-quarter to the camera, finishing knotting his narrow red tie with both hands and glancing down at his steel wristwatch. He is exactly as in @image2: the same face and hair, light grey suit, white shirt, narrow red tie, red satin ribbon bow on the left lapel, steel wristwatch. Behind him the lace curtains, the city with the spire and the airship, bright morning backlight; the corner of the wooden TV at the right edge of the frame.
+PRESERVE: the same kitchen, window, curtains, tiles and morning light as @image1.
+Constraints: nothing new added to the room; nobody looks at the camera.
+```
+
+### К4b · кадр (новый) — @image1 — frames/K3.png, @image2 — nadya-1985, @image3 — misha-1985
+```
+Edit @image1.
+CHANGE: move to a medium shot from the same side of the room, 40 mm lens, camera at the eye level of a kneeling adult, framing the cream refrigerator: the boy now stands in front of the refrigerator, and the woman from @image2 kneels on one knee in front of him, both her hands straightening the knot of his red pioneer neckerchief. Camera about thirty degrees off the axis between them, both faces visible. Behind them on the refrigerator door: the smiling boy magnet and the pink card under the purple magnet, exactly as in @image1.
+The woman is exactly as in @image2: the same face and chestnut curls, navy polka-dot dress with white round collar, red carnation. The boy is exactly as in @image3 and @image1: 6 years old, red garrison cap, white shirt, red neckerchief, navy shorts, white knee socks, brown sandals.
+PRESERVE: the same kitchen, refrigerator, tiles and morning light as @image1.
+Constraints: nothing new added to the room; nobody looks at the camera.
+```
