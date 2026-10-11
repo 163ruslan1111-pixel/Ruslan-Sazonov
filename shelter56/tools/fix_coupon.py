@@ -8,7 +8,7 @@ im = Image.open(src).convert("RGB")
 reg = im.crop((x0,y0,x1,y1))
 w,h = reg.size
 clean = reg.filter(ImageFilter.MedianFilter(21)).filter(ImageFilter.GaussianBlur(3))
-med = np.asarray(reg.filter(ImageFilter.MedianFilter(9))).astype(float)
+med = np.asarray(reg.filter(ImageFilter.MedianFilter(17))).astype(float)
 pink = ((med[...,0]>170)&(med[...,0]-med[...,1]>18)&(med[...,0]-med[...,2]>10)).astype(np.uint8)*255
 m = Image.fromarray(pink).filter(ImageFilter.MinFilter(5)).filter(ImageFilter.GaussianBlur(1.5))
 # ink from the real coupon reference: text block + stamp
