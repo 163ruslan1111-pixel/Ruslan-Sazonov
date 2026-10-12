@@ -1,0 +1,61 @@
+GRID 9 — ВЕРСИЯ ДЛЯ «УБЕЖИЩЕ 56»
+Основа — шаблон «Cinematic Contact Sheet 3x3» (templates/grid9-original.txt) + правила проекта.
+
+КАК ПОЛЬЗОВАТЬСЯ
+1. В Nano Banana Pro прикладываешь:
+   @image1 — утверждённый кадр сцены (момент, который хотим покрыть ракурсами);
+   @image2… — эталоны героев, которые есть в этом кадре (E-petr, E-nadya, E-misha, лист робота).
+2. Вставляешь промпт ниже, заполнив строку SCENE.
+3. Получаешь сетку 3×3 — 9 ракурсов ОДНОГО момента с одинаковыми лицами и светом.
+4. Я вырезаю нужные клетки (каждая — отдельный кадр 16:9), ты делаешь Upscale в той же нейросети.
+5. Эти кадры — стартовые картинки для видео (Seedance/Kling) и раскадровка для Seedance.
+
+ВАЖНО: сетка показывает один момент с разных точек, а не историю по времени.
+Поэтому сетку делаем на каждый «бит» сцены (кто-то вошёл, кто-то сел) — обычно 3–4 сетки на сцену.
+
+==================== ПРОМПТ (вставлять) ====================
+
+<instruction>
+Analyze the attached scene image (@image1). Identify ALL subjects present — people, the robot, key props — and their exact positions in the room and relationship to each other.
+
+Generate a cohesive 3x3 grid "Cinematic Contact Sheet": 9 distinct camera shots of exactly this moment, with exactly these subjects, in exactly this room. Each panel is 16:9. Thin black borders between panels.
+
+Row 1 (Establishing Context):
+1. Extreme Long Shot: the subjects small within the room, the whole kitchen visible.
+2. Long Shot: all subjects visible head to toe.
+3. Medium Long Shot: framed from the knees up.
+
+Row 2 (Core Coverage):
+4. Medium Shot: waist up, focus on the interaction.
+5. Medium Close-Up: chest up, the main subject.
+6. Close-Up: tight on the main subject's face.
+
+Row 3 (Details & Angles):
+7. Extreme Close-Up: macro on a key detail (hands, an object, eyes).
+8. Low Angle: looking up at the subjects from near the floor.
+9. High Angle: looking down on the subjects from above.
+
+SCENE: [одна строка: где, кто, что делает в этот момент].
+
+Identity: faces, hair and clothing of every person exactly as in @image1 and their reference images (@image2, @image3…). Do not redesign, beautify, age or merge faces. Children stay children of the same age.
+Room: exactly the same room as @image1 in every panel — same furniture positions, same wall each object stands against, same window, same light direction. Exactly one of each object; never duplicate furniture or props. Nobody is added or removed: every subject present in @image1 stays in the scene; a subject is only missing from a panel if that camera angle physically cannot see them.
+Robot (if present): one wheel, two chrome arms, TV-shaped head with amber lamp eyes, folk-pattern apron on its front.
+Strict consistency across all 9 panels: same people, same clothes, same lighting, same moment. Depth of field shifts realistically (bokeh in close-ups).
+</instruction>
+
+A professional 3x3 cinematic storyboard grid of 9 photorealistic panels showing the scene from @image1 in a full range of focal lengths. Top row: wide environmental shot, full view, knees-up. Middle row: waist-up, chest-up, face close-up. Bottom row: macro detail, low angle, high angle. Live-action film still look, 35 mm film grain, Kodak Portra colours, [стиль эпохи: 1985 — warm morning sun, pastel mint and cream, red accents / 2185 — one hard light source, deep shadows, haze]. No text, no labels, no captions, no watermark inside the panels.
+
+==================== КОНЕЦ ПРОМПТА ====================
+
+ПЕРЕВОД (для чтения)
+Проанализируй приложенный кадр (@image1). Найди всех, кто в нём есть — людей, робота, ключевые предметы — и где они стоят друг относительно друга.
+Сделай сетку 3×3 «кинематографический контактный лист»: 9 разных ракурсов ровно этого момента, с этими же героями, в этой же комнате. Каждая клетка 16:9, тонкие чёрные рамки.
+Ряд 1: 1 — сверхобщий (герои маленькие, вся кухня); 2 — общий (все в полный рост); 3 — средне-общий (от колен).
+Ряд 2: 4 — средний (по пояс, взаимодействие); 5 — средний крупный (по грудь, главный герой); 6 — крупный (лицо).
+Ряд 3: 7 — деталь (руки, предмет, глаза); 8 — нижний ракурс (снизу от пола); 9 — верхний ракурс (сверху).
+SCENE — одна строка: где, кто, что делает.
+Лица, причёски и одежда — точно как на @image1 и эталонах. Дети остаются детьми того же возраста.
+Комната — та же во всех клетках: мебель на тех же местах, у тех же стен, то же окно и свет. Каждого предмета ровно один, ничего не удваивать. Никого не добавлять и не убирать: герой пропадает из клетки, только если с этой точки его физически не видно.
+Робот: одно колесо, две руки, голова-телевизор, фартук спереди.
+Одни и те же люди, одежда, свет и момент во всех 9 клетках; глубина резкости реалистичная.
+Стиль: кадр из живого фильма, плёнка 35 мм, цвета Kodak Portra, [свет эпохи]. Никакого текста в клетках.

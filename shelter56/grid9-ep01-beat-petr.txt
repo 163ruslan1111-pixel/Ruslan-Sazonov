@@ -1,0 +1,38 @@
+GRID 9 · СЕРИЯ 1 · СЦЕНА 01 · БИТ «Пётр вошёл»
+ПРИЛОЖИТЬ: @image1 — frames/F2-last.png · @image2 — refs/E-petr.png · @image3 — refs/E-misha.png · @image4 — refs/hozyayushka-1985.png
+Модель: Nano Banana Pro, формат 16:9.
+
+ПЕРЕВОД SCENE: солнечная советская кухня, утро 1 мая 1985: отец в сером костюме стоит у кремового холодильника и смотрит на часы; 6-летний мальчик в красной пилотке сидит за столом у окна с бутылкой светящегося зелёного лимонада и улыбается ему; робот-домработница стоит у плиты, держит одну сковороду, на руке белая салфетка.
+Остальной перевод — в templates/grid9-shelter56.txt.
+
+==================== ПРОМПТ ====================
+<instruction>
+Analyze the attached scene image (@image1). Identify ALL subjects present — people, the robot, key props — and their exact positions in the room and relationship to each other.
+
+Generate a cohesive 3x3 grid "Cinematic Contact Sheet": 9 distinct camera shots of exactly this moment, with exactly these subjects, in exactly this room. Each panel is 16:9. Thin black borders between panels.
+
+Row 1 (Establishing Context):
+1. Extreme Long Shot: the subjects small within the room, the whole kitchen visible.
+2. Long Shot: all subjects visible head to toe.
+3. Medium Long Shot: framed from the knees up.
+
+Row 2 (Core Coverage):
+4. Medium Shot: waist up, focus on the interaction.
+5. Medium Close-Up: chest up, the main subject.
+6. Close-Up: tight on the main subject's face.
+
+Row 3 (Details & Angles):
+7. Extreme Close-Up: macro on a key detail (hands, an object, eyes).
+8. Low Angle: looking up at the subjects from near the floor.
+9. High Angle: looking down on the subjects from above.
+
+SCENE: a sunny Soviet kitchen, morning of 1 May 1985: the father in a grey suit stands by the cream refrigerator checking his wristwatch; the 6-year-old boy in a red garrison cap sits at the table under the window holding a glowing green lemonade bottle and smiles at him; the robot housekeeper stands at the stove holding one frying pan with a white napkin over its arm.
+
+Identity: faces, hair and clothing of every person exactly as in @image1 and their reference images (@image2, @image3…). Do not redesign, beautify, age or merge faces. Children stay children of the same age.
+Room: exactly the same room as @image1 in every panel — same furniture positions, same wall each object stands against, same window, same light direction. Exactly one of each object; never duplicate furniture or props. Nobody is added or removed: every subject present in @image1 stays in the scene; a subject is only missing from a panel if that camera angle physically cannot see them.
+Robot (if present): one wheel, two chrome arms, TV-shaped head with amber lamp eyes, folk-pattern apron on its front.
+Strict consistency across all 9 panels: same people, same clothes, same lighting, same moment. Depth of field shifts realistically (bokeh in close-ups).
+</instruction>
+
+A professional 3x3 cinematic storyboard grid of 9 photorealistic panels showing the scene from @image1 in a full range of focal lengths. Top row: wide environmental shot, full view, knees-up. Middle row: waist-up, chest-up, face close-up. Bottom row: macro detail, low angle, high angle. Live-action film still look, 35 mm film grain, Kodak Portra colours, warm morning sun from the window, pastel mint and cream, red accents. No text, no labels, no captions, no watermark inside the panels.
+==================== КОНЕЦ ====================
