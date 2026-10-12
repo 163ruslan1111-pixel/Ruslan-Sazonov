@@ -6,6 +6,14 @@ GRID 9 · СЕРИЯ 1 · СЦЕНА 01 · БИТ «Пётр вошёл»
 Остальной перевод — в templates/grid9-shelter56.txt.
 
 ==================== ПРОМПТ ====================
+STORY: Morning of 1 May 1985, a sunny Soviet apartment kitchen, an hour before the May Day parade. The father has just walked in, dressed for the parade, and is checking the time; his little son, still at breakfast, smiles at him with a glowing green lemonade; the family robot housekeeper keeps frying pancakes. Warm, happy, unaware — the last ordinary morning before the war.
+
+APPEARANCE:
+The father (@image2): 30-year-old Russian man, short dark-blond side-parted hair, clean-shaven, light grey 1980s suit, white shirt, narrow red tie, red satin ribbon bow on the left lapel, steel wristwatch. He stands by the cream refrigerator against the left wall, looking at his watch.
+The boy (@image3): 6-year-old Russian boy, light blond hair, big blue eyes, gap in the front teeth, red garrison cap, white short-sleeve shirt, red pioneer neckerchief, navy shorts, white knee socks. He sits on a stool at the table under the window, holding the glowing green lemonade bottle, smiling at his father.
+The robot (@image4): cream enamel cylindrical body with chrome rings, one wheel, two chrome arms, TV-shaped head with round amber lamp eyes, red-and-gold folk-pattern apron on its front. It stands at the stove by the right wall, holding one frying pan, a white napkin over its arm.
+
+TECHNICAL:
 <instruction>
 Analyze the attached scene image (@image1). Identify ALL subjects present — people, the robot, key props — and their exact positions in the room and relationship to each other.
 
@@ -26,7 +34,6 @@ Row 3 (Details & Angles):
 8. Low Angle: looking up at the subjects from near the floor.
 9. High Angle: looking down on the subjects from above.
 
-SCENE: a sunny Soviet kitchen, morning of 1 May 1985: the father in a grey suit stands by the cream refrigerator checking his wristwatch; the 6-year-old boy in a red garrison cap sits at the table under the window holding a glowing green lemonade bottle and smiles at him; the robot housekeeper stands at the stove holding one frying pan with a white napkin over its arm.
 
 Identity: faces, hair and clothing of every person exactly as in @image1 and their reference images (@image2, @image3…). Do not redesign, beautify, age or merge faces. Children stay children of the same age.
 Room: exactly the same room as @image1 in every panel — same furniture positions, same wall each object stands against, same window, same light direction. Exactly one of each object; never duplicate furniture or props. Nobody is added or removed: every subject present in @image1 stays in the scene; a subject is only missing from a panel if that camera angle physically cannot see them.
@@ -36,3 +43,11 @@ Strict consistency across all 9 panels: same people, same clothes, same lighting
 
 A professional 3x3 cinematic storyboard grid of 9 photorealistic panels showing the scene from @image1 in a full range of focal lengths. Top row: wide environmental shot, full view, knees-up. Middle row: waist-up, chest-up, face close-up. Bottom row: macro detail, low angle, high angle. Live-action film still look, 35 mm film grain, Kodak Portra colours, warm morning sun from the window, pastel mint and cream, red accents. No text, no labels, no captions, no watermark inside the panels.
 ==================== КОНЕЦ ====================
+
+ПЕРЕВОД STORY + APPEARANCE
+СЮЖЕТ: утро 1 мая 1985, солнечная советская кухня, за час до первомайского парада. Отец только что вошёл, одет на парад, смотрит на часы; маленький сын ещё завтракает, улыбается ему, в руках светящийся зелёный лимонад; домашний робот продолжает жарить блины. Тепло, счастливо, никто не знает — последнее обычное утро перед войной.
+ВНЕШНОСТЬ:
+Отец (@image2): 30 лет, короткие тёмно-русые волосы с пробором, гладко выбрит, светло-серый костюм 80-х, белая рубашка, узкий красный галстук, красный атласный бант на левом лацкане, стальные часы. Стоит у кремового холодильника у левой стены, смотрит на часы.
+Мальчик (@image3): 6 лет, светлые волосы, голубые глаза, щербинка в зубах, красная пилотка, белая рубашка, красный галстук, синие шорты, белые гольфы. Сидит на табурете у стола под окном с бутылкой лимонада, улыбается отцу.
+Робот (@image4): кремовый корпус-цилиндр с хромовыми кольцами, одно колесо, две хромированные руки, голова-телевизор с янтарными глазами, фартук с хохломой спереди. Стоит у плиты у правой стены, держит одну сковороду, на руке белая салфетка.
+ТЕХНИЧЕСКАЯ ЧАСТЬ — перевод в templates/grid9-shelter56.txt.
