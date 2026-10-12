@@ -1,0 +1,191 @@
+SEEDANCE 2.5 — MASTER PROMPT TEMPLATE
+
+ИНСТРУКЦИЯ ПО ЗАПОЛНЕНИЮ
+Замените значения в [квадратных скобках] данными проекта. Скопируйте английский шаблон ниже в промпт. Повторите блоки Image Reference для каждого персонажа и Timeline для каждого кадра. Удалите инструкции и незаполненные варианты перед использованием.
+
+ОБЯЗАТЕЛЬНЫЕ ПРАВИЛА ПРОЕКТА
+1. Каждый проект всегда создаётся с указанием режиссёрского стиля. Director / Style Reference — обязательный раздел: имя режиссёра само по себе недостаточно. Опишите его влияние на постановку, операторскую работу, композицию, монтажный ритм, движение камеры, атмосферу, юмор/напряжение и экшен.
+2. Основной промпт пишется на английском. Все русские реплики внутри английского промпта записываются ТОЛЬКО латинской транскрипцией: без кириллицы и без перевода на английский. Например: «Ты серьёзно?» → "Ty seryozno?". Язык звучащей речи остаётся русским.
+3. Сетка на референсе — только техническая разметка. Она не является частью лица, кожи, волос или одежды и не должна появляться в результате. Наличие сетки не является основанием для генерации нового лица или изменения личности персонажа. Сохраняйте лицо под сеткой максимально точно.
+4. Для продолжения ролика первый кадр должен бесшовно продолжать последний кадр непосредственно предыдущего видео. Не начинайте сцену заново.
+5. Для новой сцены сохраните разделы Video Reference / Continuity и Continuity Lock, указав, что предыдущего видео нет. Не оставляйте ссылку @Video1 без прикреплённого видео.
+6. Временные интервалы Timeline должны покрывать всю заявленную длительность без пробелов и наложений. Реплики и действия должны помещаться в отведённое время.
+
+==================== COPYABLE MASTER PROMPT ====================
+
+1. IMAGE REFERENCES
+
+@Image1 — STRICT REFERENCE for [CHARACTER NAME / ROLE].
+Preserve the character's identity and appearance as accurately as possible:
+Face and facial features: [HEAD SHAPE, EYES, EYEBROWS, NOSE, CHEEKBONES, JAW].
+Hair: [COLOR, LENGTH, STYLE].
+Age: [AGE / AGE RANGE].
+Body build: [BUILD, HEIGHT, PROPORTIONS].
+Clothing and accessories: [EXACT OUTFIT AND ACCESSORIES].
+Overall appearance: [OTHER ESSENTIAL DETAILS].
+Do not redesign, replace, beautify, or merge this face with another character's face.
+
+[REPEAT THIS BLOCK AS @Image2, @Image3, ETC. FOR EACH ADDITIONAL CHARACTER.]
+
+Reference grid rule:
+If a reference image contains an overlay grid, the grid is ONLY technical reference markup. Completely ignore it and remove it from the generated result. The grid is NOT part of the face, skin, hair, or clothing. Do not interpret the grid lines as facial features. The presence of the grid is NOT a reason to generate a new face or change the character's identity. The face must be taken from underneath the grid and preserved as accurately as possible.
+
+2. VIDEO REFERENCE / CONTINUITY
+
+[FOR A CONTINUATION, USE THIS BLOCK:]
+@Video1 — STRICT CONTINUITY REFERENCE for the DIRECTLY PREVIOUS VIDEO.
+This video is a DIRECT CONTINUATION of @Video1.
+The FIRST FRAME of this video MUST continue seamlessly from the FINAL FRAME of @Video1.
+Do not restart the scene. Preserve the location, lighting, clothing, character positions, body orientation, physical condition, props, and ongoing movement from the final frame.
+Final-frame state: [DESCRIBE THE EXACT STATE TO CONTINUE].
+
+[FOR A NEW SCENE, REPLACE THE BLOCK ABOVE WITH:]
+No previous video reference. This is a new scene.
+Establish the opening state specified in Location and Character Positions.
+
+3. FORMAT
+
+Aspect ratio: 16:9.
+Duration: EXACTLY [XX] seconds.
+
+4. DIRECTOR / STYLE REFERENCE — MANDATORY
+
+Director / style reference: [DIRECTOR NAME].
+Apply the following concrete directing principles throughout this project:
+Staging and blocking: [HOW CHARACTERS, ACTIONS, AND SPACE ARE STAGED].
+Cinematography: [LIGHTING APPROACH, LENS LANGUAGE, CAMERA DISTANCE, TEXTURE].
+Composition: [FRAMING, BALANCE, DEPTH, NEGATIVE SPACE, SUBJECT PLACEMENT].
+Editing rhythm: [SHOT LENGTHS, CUT TIMING, PACING, TRANSITIONS].
+Camera movement: [STATIC / TRACKING / HANDHELD / DOLLY / OTHER; MOTIVATION AND SPEED].
+Atmosphere: [MOOD, EMOTIONAL TONE, COLOR AND SPATIAL FEEL].
+Humor / tension: [HOW COMIC TIMING, PAUSES, REACTIONS, OR SUSPENSE ARE BUILT].
+Action: [CHOREOGRAPHY, PHYSICALITY, SPATIAL CLARITY, INTENSITY; IF ABSENT, STATE NO ACTION SEQUENCE].
+Translate the director reference into these specific choices in every shot; do not rely on the director's name alone.
+
+5. VISUAL STYLE
+
+Premium cinematic [POLITICAL SATIRE / PROJECT GENRE].
+Realistic feature-film cinematography.
+ARRI Alexa XT Plus.
+Panavision Primo lenses.
+24 fps.
+180-degree shutter.
+35mm film grain.
+Natural highlight roll-off.
+Realistic skin.
+Natural physical movement.
+Cinematic depth of field.
+No cartoon look.
+No artificial or obviously AI-generated appearance.
+Project-specific palette and lighting: [DETAILS].
+
+6. LOCATION
+
+Location: [PLACE, INTERIOR / EXTERIOR, PERIOD].
+Time of day and weather: [DETAILS].
+Spatial layout: [KEY AREAS, ENTRANCES, EXITS, DISTANCES].
+Set dressing and props: [DETAILS].
+Light sources and direction: [DETAILS].
+Background activity: [DETAILS].
+
+7. CHARACTER POSITIONS
+
+[CHARACTER A]: [FRAME POSITION, BODY ORIENTATION, POSTURE, EYELINE, HAND POSITION, PROP].
+[CHARACTER B]: [FRAME POSITION, BODY ORIENTATION, POSTURE, EYELINE, HAND POSITION, PROP].
+Distance and relationship between characters: [DETAILS].
+Opening physical and emotional state: [DETAILS].
+Maintain clear screen direction and consistent spatial relationships.
+
+8. TIMELINE
+
+SHOT 1
+TIME: [00.0–XX.X seconds].
+ANGLE: [EYE LEVEL / LOW / HIGH / OVER THE SHOULDER / OTHER].
+SHOT: [WIDE / MEDIUM / CLOSE-UP / EXTREME CLOSE-UP; SUBJECT AND COMPOSITION].
+CAMERA: [POSITION, LENS, MOVEMENT, SPEED, FOCUS BEHAVIOR].
+ACTION: [SPECIFIC VISIBLE ACTIONS IN ORDER, INCLUDING REACTIONS AND PROP INTERACTIONS].
+DIALOGUE: [SPEAKER]: "[RUSSIAN LINE IN LATIN TRANSLITERATION ONLY]".
+[IF NO SPEECH: DIALOGUE: None.]
+
+SHOT 2
+TIME: [XX.X–YY.Y seconds].
+ANGLE: [ANGLE].
+SHOT: [SHOT SIZE, SUBJECT, COMPOSITION].
+CAMERA: [POSITION, LENS, MOVEMENT, SPEED, FOCUS BEHAVIOR].
+ACTION: [SPECIFIC VISIBLE ACTIONS IN ORDER].
+DIALOGUE: [SPEAKER]: "[RUSSIAN LINE IN LATIN TRANSLITERATION ONLY]".
+
+[REPEAT SHOT BLOCKS AS NEEDED. END THE LAST INTERVAL AT THE EXACT TOTAL DURATION.]
+Final frame: [EXACT CHARACTER POSITIONS, POSES, EYELINES, PROP STATES, AND CAMERA STATE].
+
+9. PERFORMANCE
+
+Acting tone: [RESTRAINED / EXPRESSIVE / DEADPAN / OTHER].
+[CHARACTER A]: [INTENTION, EMOTION, FACIAL EXPRESSION, GESTURES, VOICE, PACING].
+[CHARACTER B]: [INTENTION, EMOTION, FACIAL EXPRESSION, GESTURES, VOICE, PACING].
+Pauses and reactions: [SPECIFIC BEATS].
+Keep movement physically plausible and performance consistent with the director/style reference.
+
+10. DIALOGUE RULE
+
+Spoken language: Russian.
+Write every Russian dialogue line in this English prompt ONLY in Latin transliteration. Do not use Cyrillic and do not translate the dialogue into English.
+Speak the specified Russian words naturally; do not read the transliteration as English.
+Use only the exact dialogue assigned in the Timeline. Do not add, paraphrase, repeat, or improvise lines.
+Only the assigned character speaks each line. Match visible mouth movement to that character's speech.
+Preserve the specified order, timing, pauses, and tone.
+Do not add subtitles, captions, or on-screen dialogue text.
+
+11. IDENTITY LOCK
+
+Keep each character tied to their assigned @Image reference throughout every shot.
+Preserve facial structure, age, hair, body proportions, clothing, and accessories.
+No face replacement, identity drift, face blending, or exchange of identities between characters.
+Changes in angle, expression, lighting, or movement must not change identity.
+
+12. GRID LOCK
+
+Any reference grid is technical markup only and must be absent from all generated frames.
+No grid lines, grid shadows, grid textures, or grid-shaped marks on faces, skin, hair, clothing, or the environment.
+Preserve the underlying face accurately. Never generate a new face because the reference contains a grid.
+
+13. CONTINUITY LOCK
+
+Maintain consistent location, lighting, wardrobe, props, screen direction, body positions, physical condition, and action progression across shots.
+No unexplained resets, teleportation, prop duplication, or sudden changes in posture or appearance.
+[FOR A CONTINUATION: Preserve the final state of @Video1 as the opening state of this video, including ongoing movement.]
+[FOR A NEW SCENE: Preserve the established opening state and all subsequent changes described in the Timeline.]
+Carry the final state into the specified final frame for future continuation.
+
+14. TECHNICAL / NEGATIVE
+
+No distorted anatomy, extra limbs or fingers, malformed hands, facial warping, or unstable proportions.
+No flicker, accidental jitter, texture crawling, or unnatural motion.
+No inconsistent lighting, focus jumps, or camera moves outside the Timeline.
+No unintended characters, objects, logos, watermarks, reference grids, subtitles, or captions.
+No cartoon styling or visibly artificial skin.
+No additional dialogue, voiceover, or music unless explicitly specified.
+Sound environment: [AMBIENCE, FOLEY, MUSIC IF REQUIRED, OR NONE].
+Additional scene-specific restrictions: [DETAILS / NONE].
+
+==================== END OF MASTER PROMPT ====================
+
+
+==================== ДОПОЛНЕНИЯ ПРОЕКТА «УБЕЖИЩЕ 56» ====================
+(вставляются в соответствующие разделы мастер-шаблона)
+
+1. IMAGE REFERENCES — после блоков персонажей:
+@ImageN — LOCATION REFERENCE only: room layout, furniture positions, materials and light. Do not copy any people, robots or poses from it.
+[@ImageN — STORYBOARD: use only shot order, framing, blocking and camera direction. Never render its grid, borders, drawing style, arrows, labels or placeholder faces. Do not reorder shots.]
+
+7. CHARACTER POSITIONS — добавить первой строкой:
+Exactly [N] people/robots are in the location: [список]. Nobody enters, leaves or disappears unless the Timeline says so. Anyone whose position falls inside the camera's view must be visible in that shot.
+
+13. CONTINUITY LOCK — добавить:
+Exactly one of each unique prop: [одна сковорода, одна бутылка, один холодильник].
+
+8. TIMELINE / DIALOGUE — для говорящего в кадре:
+Medium close-up, locked camera, realistic lip articulation, no exaggerated mouth opening, no head turns while speaking. Short lines; long lines split across shots.
+
+14. TECHNICAL — звук:
+Dialogue prominent, ambience low, no music.
