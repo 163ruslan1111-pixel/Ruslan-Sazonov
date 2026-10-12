@@ -1,0 +1,168 @@
+SEEDANCE · СЕРИЯ 1 · СЦЕНА 01 · БЛОК B1 (0:00–0:15)
+Шоты: 01-01 лимонад · 01-03 блин и усы
+
+ПРИЛОЖИТЬ (строго в этом порядке):
+@Image1 — refs/E-misha.png (эталон Миши)
+@Image2 — refs/hozyayushka-1985.png (лист робота)
+@Image3 — frames/K3.png (кухня — мастер-кадр)
+@Image4 — refs/lemonade.png (бутылка)
+Видео-референс: нет. Длительность: 15 с. Формат 16:9.
+
+==================== ПРОМПТ ====================
+
+1. IMAGE REFERENCES
+
+@Image1 — STRICT REFERENCE for MISHA, the boy.
+Face and facial features: round face, big blue eyes, light eyebrows, small snub nose, soft child cheeks, gap in the front teeth when he smiles.
+Hair: light blond, short.
+Age: 6 years old, a real child, not older.
+Body build: small, slim child.
+Clothing and accessories: red garrison cap (pilotka), white short-sleeve shirt, red pioneer neckerchief tied at the neck, navy blue shorts, white knee socks, brown sandals.
+Do not redesign, replace, beautify, age up, or merge this face with another character's face.
+
+@Image2 — STRICT REFERENCE for KHOZYAYUSHKA, the household robot.
+Design: about 140 cm tall; cream glossy enamel cylindrical body with chrome trim rings; ONE black rubber wheel at the base; TWO jointed chrome arms with three-finger grippers; head shaped like a small rounded vintage television with two big round glowing amber lamp eyes and a chrome speaker grille as a mouth; short antenna with a small red bulb; a fabric apron with a red-and-gold Russian folk floral pattern worn on the FRONT, tied at the back.
+Do not redesign the robot. It never walks on legs, never has more than two arms.
+
+@Image3 — LOCATION REFERENCE only: room layout, furniture positions, materials and light. Do not copy any people, robots or poses from it.
+
+@Image4 — PROP REFERENCE: the lemonade bottle. Same rounded glass bottle, same soft glowing green liquid, same red label.
+
+Reference grid rule:
+If a reference image contains an overlay grid, the grid is ONLY technical reference markup. Completely ignore it and remove it from the generated result. Preserve the face underneath accurately.
+
+2. VIDEO REFERENCE / CONTINUITY
+
+No previous video reference. This is a new scene, the very first scene of the film.
+Establish the opening state specified in Location and Character Positions.
+
+3. FORMAT
+
+Aspect ratio: 16:9.
+Duration: EXACTLY 15 seconds.
+
+4. DIRECTOR / STYLE REFERENCE — MANDATORY
+
+Director / style reference: Jean-Pierre Jeunet.
+Staging and blocking: a cramped, lived-in kitchen; characters busy with small domestic rituals; comedy comes from objects and reactions.
+Cinematography: wide lenses (24–35 mm) close to faces and props, warm golden-green palette, soft morning sun, saturated red accents (cap, neckerchief, apron).
+Composition: subject centred, depth built from props in the foreground, loving close-ups of objects (bottle, opener, pancake).
+Editing rhythm: short shots, crisp cuts on action, a detail insert before the wide.
+Camera movement: short smooth push-ins and gentle glides motivated by action; no handheld shake.
+Atmosphere: fairy-tale cosiness of a retro-futuristic Soviet morning, everything bright and promising.
+Humor / tension: a beat of pause before a reaction; gentle grotesque in small things — the robot fusses over the boy like a grandmother.
+Action: no action sequence.
+Translate the director reference into these specific choices in every shot; do not rely on the director's name alone.
+
+5. VISUAL STYLE
+
+Premium cinematic retro-futuristic Soviet science fiction.
+Realistic feature-film cinematography.
+ARRI Alexa XT Plus.
+Panavision Primo lenses.
+24 fps.
+180-degree shutter.
+35mm film grain.
+Natural highlight roll-off.
+Realistic skin.
+Natural physical movement.
+Cinematic depth of field.
+No cartoon look.
+No artificial or obviously AI-generated appearance.
+Project-specific palette and lighting: mint-green tiles, cream enamel, Soviet red, golden morning sun, chrome; Kodak Portra colours; warm sunlight from the window, soft shadows.
+
+6. LOCATION
+
+Location: a small Soviet apartment kitchen of an alternate-history 1985, interior, as in @Image3.
+Time of day and weather: sunny spring morning, 1 May.
+Spatial layout: window in the far wall with white lace curtains; the kitchen table with a yellow checkered oilcloth pushed right against the window; ONE cream rounded refrigerator against the left wall near the window; a white gas stove against the right wall near the window; a wooden tube TV on a chrome bracket above the stove; a chrome samovar with green lamps next to the stove; the door to the hallway is behind the camera.
+Set dressing and props: a plate stacked with thin pancakes and a tea glass in a metal holder on the table; ONE cast-iron frying pan on the stove; on the refrigerator door a round smiling cartoon boy magnet and a pink paper card under a purple magnet.
+Light sources and direction: warm morning sun through the window, from behind the table toward the camera, soft bounce from the cream walls.
+Background activity: through the window — pastel apartment blocks, a tall spire with a red star, a silver airship drifting slowly.
+
+7. CHARACTER POSITIONS
+
+Exactly two characters are in the kitchen: the boy and the robot. Nobody else enters, leaves or disappears.
+MISHA (@Image1): sitting on a wooden stool at the end of the table nearest the refrigerator, facing the table, three-quarter to the camera.
+KHOZYAYUSHKA (@Image2): beside the table on the stove side, facing the boy; later at the stove.
+Distance and relationship: the robot is within arm's reach of the boy; she fusses over him like a grandmother.
+Opening physical and emotional state: the boy is eager and fidgety, waiting for his lemonade; the robot is calm and busy.
+Maintain clear screen direction: the boy is always on the LEFT side of frame, the robot on the RIGHT.
+
+8. TIMELINE
+
+SHOT 1
+TIME: 0.0–5.0 seconds.
+ANGLE: table height, eye level of the bottle.
+SHOT: extreme close-up of the lemonade bottle (@Image4) in the centre on the oilcloth; the boy's face soft and out of focus behind it on the left; the window soft in the background.
+CAMERA: 35 mm lens, very slow push-in toward the bottle, focus on the bottle.
+ACTION: the robot's chrome gripper enters from the right holding a small steel opener, levers the crimped cap off with one short click; the cap drops onto the oilcloth next to the bottle and stays there; the gripper withdraws to the right out of frame. A thin wisp of vapour rises from the neck and fades. The green liquid glows a little brighter, tiny bubbles rush up. The boy's small hand (five fingers) closes around the wet bottle and pulls it toward himself; he stays seated and in frame.
+DIALOGUE: None.
+
+SHOT 2
+TIME: 5.0–10.0 seconds.
+ANGLE: eye level, from the hallway door side, matching @Image3.
+SHOT: wide shot of the whole kitchen as in @Image3: refrigerator on the left, the boy at the table under the window drinking from the bottle, a thin green lemonade moustache now on his upper lip; the robot at the stove on the right with the frying pan; the tea glass in its holder soft in the foreground.
+CAMERA: 28 mm lens, locked tripod with a barely perceptible glide to the right.
+ACTION: the robot gives the ONE frying pan a short flick; a single thin pancake hops a few centimetres, turns over once and lands flat back in the same pan; the pan never leaves the stove. The boy lowers the bottle, laughs and bounces on his stool.
+DIALOGUE: None.
+
+SHOT 3
+TIME: 10.0–15.0 seconds.
+ANGLE: eye level of the seated boy.
+SHOT: medium two-shot by the table: the boy on the left, the robot on the right turned three-quarter to camera so its amber lamp eyes are visible; the window behind them soft.
+CAMERA: 35 mm lens, locked tripod.
+ACTION: the robot rolls up to the boy on its single wheel, takes the corner of its folk-pattern apron in one gripper and gently dabs the green moustache off his upper lip, two soft wipes, while speaking — its chrome speaker grille glows softly in rhythm with the words. The boy wrinkles his nose, giggles and hugs the bottle to his chest. By 14.5 s his upper lip is clean.
+DIALOGUE: KHOZYAYUSHKA (voice from the speaker grille, no mouth): "Mishen'ka, limonad — posle blinov."
+
+Final frame: medium two-shot; the boy on the left on his stool, clean upper lip, grinning, bottle hugged to his chest; the robot on the right, apron corner just lowered, facing him; window behind; camera still.
+
+9. PERFORMANCE
+
+Acting tone: warm, natural, slightly comedic.
+MISHA: delighted, impatient, giggly; quick small movements, swinging legs, bright eyes; never looks into the lens.
+KHOZYAYUSHKA: fussy and caring like a grandmother; smooth mechanical movements, head tilts, glowing eyes; voice warm motherly alto through a small tinny speaker.
+Pauses and reactions: a half-second pause after the pancake lands before the boy laughs; the boy wrinkles his nose before giggling at the wipe.
+Keep movement physically plausible and performance consistent with the director/style reference.
+
+10. DIALOGUE RULE
+
+Spoken language: Russian.
+Write every Russian dialogue line in this English prompt ONLY in Latin transliteration. Do not use Cyrillic and do not translate the dialogue into English.
+Speak the specified Russian words naturally; do not read the transliteration as English.
+Use only the exact dialogue assigned in the Timeline. Do not add, paraphrase, repeat, or improvise lines.
+Only the assigned character speaks each line. The boy does not speak.
+Preserve the specified order, timing, pauses, and tone.
+Do not add subtitles, captions, or on-screen dialogue text.
+
+11. IDENTITY LOCK
+
+Keep each character tied to their assigned @Image reference throughout every shot.
+Preserve facial structure, age, hair, body proportions, clothing, and accessories.
+The boy stays a real 6-year-old child in every shot. The robot keeps one wheel, two arms and the apron on its front.
+No face replacement, identity drift, face blending, or exchange of identities between characters.
+
+12. GRID LOCK
+
+Any reference grid is technical markup only and must be absent from all generated frames.
+
+13. CONTINUITY LOCK
+
+Maintain consistent location, lighting, wardrobe, props, screen direction, body positions and action progression across shots.
+Exactly one of each unique prop: one refrigerator, one frying pan, one lemonade bottle, one stove, one TV.
+No unexplained resets, teleportation, prop duplication, or sudden changes in posture or appearance.
+Preserve the established opening state and all subsequent changes described in the Timeline (the moustache appears in Shot 2 and is wiped off in Shot 3).
+Carry the final state into the specified final frame for future continuation.
+
+14. TECHNICAL / NEGATIVE
+
+No distorted anatomy, extra limbs or fingers, malformed hands, facial warping, or unstable proportions.
+No flicker, accidental jitter, texture crawling, or unnatural motion.
+No inconsistent lighting, focus jumps, or camera moves outside the Timeline.
+No unintended characters, objects, logos, watermarks, reference grids, subtitles, or captions.
+No cartoon styling or visibly artificial skin.
+No additional dialogue, voiceover, or music.
+Sound environment: dialogue prominent, ambience low, no music. Kitchen room tone, soda fizz and the cap click in Shot 1, pancake sizzle and the pan flick in Shot 2, soft fabric rustle and the boy's giggle in Shot 3, distant brass band warming up outside the window.
+Additional scene-specific restrictions: no readable text anywhere except the bottle label as in @Image4.
+
+==================== КОНЕЦ ПРОМПТА ====================
